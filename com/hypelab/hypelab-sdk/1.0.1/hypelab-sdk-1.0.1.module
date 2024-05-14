@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hypelab",
+    "module": "hypelab-sdk",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hypelab-sdk-1.0.1.aar",
+          "url": "hypelab-sdk-1.0.1.aar",
+          "size": 17227,
+          "sha512": "3a436ba77b88c89a572f046e0da72e975e1429f4d552969c13cdbcc313c8b6bd4759b695a533d206c620f6cb12e45babda4edefbd9bd01295d45cc7585aeb6a8",
+          "sha256": "172721ad934f44b30fefb509c3ac67e89f877af79cd646fae23a2e118e50cf92",
+          "sha1": "4038e66558ceeb5372889440f4829551385cef45",
+          "md5": "94eda5e731f96799629672903898e593"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hypelab-sdk-1.0.1.aar",
+          "url": "hypelab-sdk-1.0.1.aar",
+          "size": 17227,
+          "sha512": "3a436ba77b88c89a572f046e0da72e975e1429f4d552969c13cdbcc313c8b6bd4759b695a533d206c620f6cb12e45babda4edefbd9bd01295d45cc7585aeb6a8",
+          "sha256": "172721ad934f44b30fefb509c3ac67e89f877af79cd646fae23a2e118e50cf92",
+          "sha1": "4038e66558ceeb5372889440f4829551385cef45",
+          "md5": "94eda5e731f96799629672903898e593"
+        }
+      ]
+    }
+  ]
+}
