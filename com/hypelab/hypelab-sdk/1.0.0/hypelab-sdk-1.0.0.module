@@ -1,0 +1,204 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hypelab",
+    "module": "hypelab-sdk",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "9.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hypelab-sdk-1.0.0.aar",
+          "url": "hypelab-sdk-1.0.0.aar",
+          "size": 203325,
+          "sha512": "999c67e25f9cf8f7d68c53abc38a942aa26fa8c98abe59c709ec13d0aa438f2060fd96899abd08c4c2211cce4f802e4033ede7f44a4d50ab16b769d1b473f9ad",
+          "sha256": "3a3574740fbd8e110cacc5c1e29f44d81756d9da2945eae414a542f0d62e3f34",
+          "sha1": "44ae453c8b18e5cc030d0d7e2dc4145a10bf34d3",
+          "md5": "d884fce0b3c99ffe4722011fd77ff8aa"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "androidx.security",
+          "module": "security-crypto",
+          "version": {
+            "requires": "1.1.0-alpha06"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "18.0.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-appset",
+          "version": {
+            "requires": "16.1.0"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-common",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "9.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hypelab-sdk-1.0.0.aar",
+          "url": "hypelab-sdk-1.0.0.aar",
+          "size": 203325,
+          "sha512": "999c67e25f9cf8f7d68c53abc38a942aa26fa8c98abe59c709ec13d0aa438f2060fd96899abd08c4c2211cce4f802e4033ede7f44a4d50ab16b769d1b473f9ad",
+          "sha256": "3a3574740fbd8e110cacc5c1e29f44d81756d9da2945eae414a542f0d62e3f34",
+          "sha1": "44ae453c8b18e5cc030d0d7e2dc4145a10bf34d3",
+          "md5": "d884fce0b3c99ffe4722011fd77ff8aa"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "hypelab-sdk-1.0.0-sources.jar",
+          "url": "hypelab-sdk-1.0.0-sources.jar",
+          "size": 153158,
+          "sha512": "a2ac2fc08a018d6f994a7023612360e06e1f194811e435c225e70c36a31a93e129dabdc97a142088acea87d5e8ef37dc976dc56e066b90aee9183d52fd6eebdf",
+          "sha256": "0f4fe2ee0f791752ddcdfd281b764cd7c4c1c510c356cd1d409f41464d587fff",
+          "sha1": "229724b809ff9e78fca5b710f2948fc3f276d1e9",
+          "md5": "8b2d6e7f28071064802ab6e5a6a57958"
+        }
+      ]
+    }
+  ]
+}
